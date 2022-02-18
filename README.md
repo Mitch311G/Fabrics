@@ -49,7 +49,7 @@
 
 - Filter the review list by ratings:
 <p align="center">
-<img src="">
+<img src="readme_assets/review_list.gif">
 </p>
 
 - Add a new review:
