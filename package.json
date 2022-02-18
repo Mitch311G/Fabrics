@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Nanya-FEC/FEC.git"
+    "url": "git+https://github.com/Mitch311G/Fabrics.git"
   },
   "author": "Marc Lawson, Mitchell Gardner, Sterling Muller",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Nanya-FEC/FEC/issues"
+    "url": "https://github.com/Mitch311G/Fabrics/issues"
   },
-  "homepage": "https://github.com/Nanya-FEC/FEC#readme",
+  "homepage": "https://github.com/Mitch311G/Fabrics#readme",
   "devDependencies": {
     "@babel/core": "^7.16.5",
     "@babel/preset-env": "^7.16.5",
