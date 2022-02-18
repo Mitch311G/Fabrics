@@ -42,17 +42,17 @@
 ---
 ## Usage
 **NOTE:** The following demonstration is for the Ratings & Reviews section of the application only.
-- See more reviews, sort the reviews list, mark a review as helpful:
+### See more reviews, sort the reviews list, mark a review as helpful:
 <p align="center">
 <img src="readme_assets/review_list.gif">
 </p>
 
-- Filter the review list by ratings:
+### Filter the review list by ratings:
 <p align="center">
 <img src="readme_assets/review_filter.gif">
 </p>
 
-- Add a new review:
+### Add a new review:
 <p align="center">
 <img src="">
 </p>
