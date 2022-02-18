@@ -54,7 +54,7 @@
 
 ### Add a new review:
 <p align="center">
-<img src="">
+<img src="readme_assets/new_review.gif">
 </p>
 
 ---
