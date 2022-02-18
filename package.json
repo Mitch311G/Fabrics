@@ -1,13 +1,14 @@
 {
-  "name": "fec",
+  "name": "fabrics",
   "version": "1.0.0",
-  "description": "front-end capstone - Overview   Creating the front-end of an online store that displays clothing for users to purchase. - Table of Contents",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "",
-    "react-dev": "webpack serve --open --config webpack.dev.js",
-    "start": "nodemon server/index.js ",
-    "react-prod": "webpack --config webpack.prod.js"
+    "build-dev": "webpack --config ./webpack.dev.js -w",
+    "build": "webpack --config ./webpack.prod.js",
+    "start-dev": "nodemon server/index.js ",
+    "start": "node server/index.js"
   },
   "repository": {
     "type": "git",
@@ -30,6 +31,7 @@
   },
   "dependencies": {
     "axios": "^0.24.0",
+    "dotenv": "^16.0.0",
     "express": "^4.17.2",
     "moment": "^2.29.1",
     "prop-types": "^15.8.1",

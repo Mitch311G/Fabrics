@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useContext } from 'react';
 import axios from 'axios';
-
+import AppContext from '../../App/AppContext.jsx';
 import IndividualQuestion from './IndividualQuestion.jsx';
 import QuestionModal from './QuestionModal.jsx';
 
@@ -39,8 +39,8 @@ const QuestionsList = () => {
     setFlag(!flag)
   }
 
-  function handleSort() {
-    setSort(event.target.value)
+  function handleSort(e) {
+    setSort(e.target.value)
     fetchQuestions()
   }
 
@@ -49,7 +49,7 @@ const QuestionsList = () => {
       <form className="search-wrapper">
         <input className="search" type="search" placeholder="HAVE A QUESTION? SEARCH FOR ANSWERS..." value={search}
           onChange={(e) => {
-            setSearch(event.target.value)
+            setSearch(e.target.value)
           }} onFocus={(e) => e.target.placeholder =''} onBlur={(e) => e.target.placeholder = "HAVE A QUESTION? SEARCH FOR ANSWERS..."}/>
         <i className="fas fa-search"></i>
       </form>
