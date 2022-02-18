@@ -1,6 +1,13 @@
 <h1 align="center">Fabrics</h1>
 
 ## Description
+***Fabircs*** is a dynamic front end web application designed and built for a mock e-commerce clothing brand. The application offers users ability to view store products/styles, select items for purchase, view questions and answers, and see how others rated the selected product. The app was built by myself and two other engineers, primarily using ReactJS with an ExpressJS proxy server, and then deployed to AWS. I developed the Ratings & Reviews section of the application which includes a rating and characteristic breakdown, list of reviews, and the following features:
+- Review list is sortable based on relevance, newest, and most helpful
+- Rating breakdown doubles as an additive filter for the reveiw list
+- Pop-up modal to rate the product and write a new review, with field validation
+- Initially shows two reviews but will render more upon button click
+- Mark a review as helpful or report the review, can only select once per review
+- Expanded view when photo thumbnail is clicked
 
 <p align="center">
 <img src="readme_assets/product_overview.png">
@@ -34,7 +41,18 @@
 2. Create a new `Personal access token` on github.
 ---
 ## Usage
+**NOTE:** The following demonstration is for the Ratings & Reviews section of the application only.
+- See more reviews, sort the reviews list, mark a review as helpful:
+<p align="center">
+<img src="">
+</p>
 
+- Filter the review list by ratings:
+<p align="center">
+<img src="">
+</p>
+
+- Add a new review:
 <p align="center">
 <img src="">
 </p>
@@ -51,4 +69,4 @@
     - Starts the app's server, but **does not watch for file changes**.
 ---
 ## Authors and acknowledgment
-***Fabrics*** was developed by Mitchell Gardner, [Marc Lawson](https://github.com/mlawso33-code), and [Sterling Muller](https://github.com/sterlingmuller).
+***Fabrics*** was developed by [Mitchell Gardner](https://github.com/Mitch311G), [Marc Lawson](https://github.com/mlawso33-code), and [Sterling Muller](https://github.com/sterlingmuller).
