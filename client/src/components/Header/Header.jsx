@@ -7,10 +7,7 @@ const Header = ({ headerSelect }) => {
   return (
     <div className='header'>
       <p className="title">
-        Nenya
-      </p>
-      <p className='tagline'>
-        Shopping with great power
+        Fabrics
       </p>
 
       <FaCartArrowDown className='cartIcon' />
