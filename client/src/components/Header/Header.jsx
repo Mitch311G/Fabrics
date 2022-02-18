@@ -1,7 +1,5 @@
-import React, { useState, useEffect, useContext } from 'react';
+import React from 'react';
 import { FaCartArrowDown } from 'react-icons/fa';
-
-import AppContext from '../App/AppContext.jsx';
 
 const Header = ({ headerSelect }) => {
   return (
