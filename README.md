@@ -6,8 +6,8 @@
 - Rating breakdown doubles as an additive filter for the reveiw list
 - Pop-up modal to rate the product and write a new review, with field validation
 - Initially shows two reviews but will render more upon button click
-- Mark a review as helpful or report the review, can only select once per review
-- Expanded view when photo thumbnail is clicked
+- Mark a review as helpful or report the review (only once per review)
+- Expanded view modal when photo thumbnail is clicked
 
 <p align="center">
 <img src="readme_assets/product_overview.png">
@@ -60,7 +60,7 @@
 ---
 ## Provided scripts
 - `npm run build-dev`
-    - Using webpack and babel, this will bundle and transpile the contents of `client/src` directory into bundled `.js` file for browser consumption, which are linked to `index.html`, then **watch for changes and re-bundle on file changes**.
+    - Using webpack and babel, this will bundle and transpile the contents of `client/src` directory into bundled `.js` file for browser consumption, which is linked to `index.html`, then **watch for changes and re-bundle on file changes**.
 - `npm run build`
     - Builds the bundle for production and **does not watch for file changes**.
 - `npm run start-dev`
