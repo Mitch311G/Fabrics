@@ -1,7 +1,7 @@
 <h1 align="center">Fabrics</h1>
 
 ## Description
-***Fabircs*** is a dynamic front end web application designed and built for a mock e-commerce clothing brand. The application offers users ability to view store products/styles, select items for purchase, view questions and answers, and see how others rated the selected product. The app was built by myself and two other engineers, primarily using ReactJS with an ExpressJS proxy server, and then deployed to AWS. I developed the Ratings & Reviews section of the application which includes a rating and characteristic breakdown, list of reviews, and the following features:
+***Fabrics*** is a dynamic front end web application designed and built for a mock e-commerce clothing brand. The application offers users ability to view store products/styles, select items for purchase, view questions and answers, and see how others rated the selected product. The app was built by myself and two other engineers, primarily using ReactJS with an ExpressJS proxy server, and then deployed to AWS. I developed the Ratings & Reviews section of the application which includes a rating and characteristic breakdown, list of reviews, and the following features:
 - Review list is sortable based on relevance, newest, and most helpful
 - Rating breakdown doubles as an additive filter for the reveiw list
 - Pop-up modal to rate the product and write a new review, with field validation
